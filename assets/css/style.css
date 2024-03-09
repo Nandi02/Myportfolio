@@ -98,23 +98,3 @@
 	}
 	
 }
-@media  screen and (min-width: 1000px) and (max-width:1600px) {
-	.design{
-		margin-top: 490px;
-		margin-left:170px;
-		width:320px;
-	}
-	#img1{
-		margin-top:250px;
-		margin-left:15px;
-	
-	}
-	.btn1{
-		
-		left:150px;
-	}
-	.btn2{
-		left:150px;
-	}
-	
-}
