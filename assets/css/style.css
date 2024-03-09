@@ -58,6 +58,26 @@
 .img1{
 	border-radius: 5px;
 }
+@media  screen and (min-width: 300px) and (max-width:400px) {
+	.design{
+		margin-top: 500px;
+		margin-left:80px;
+		width:250px;
+	}
+	.btn1{
+		
+		left:200px;
+	}
+	#img1{
+		margin-top:250px;
+		margin-left:-10px;
+	
+	}
+	.btn2{
+		left:200px;
+	}
+	
+}
 @media  screen and (min-width: 400px) and (max-width:550px) {
 	.design{
 		margin-top: 400px;
@@ -87,6 +107,26 @@
 	#img1{
 		margin-top:150px;
 		margin-left:15px;
+	
+	}
+	.btn1{
+		
+		left:220px;
+	}
+	.btn2{
+		left:250px;
+	}
+	
+}
+@media  screen and (min-width: 700px) and (max-width:1000px) {
+	.design{
+		margin-top: 500px;
+		margin-left:250px;
+		width:250px;
+	}
+	#img1{
+		margin-top:250px;
+		margin-left:80px;
 	
 	}
 	.btn1{
