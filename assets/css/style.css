@@ -1,0 +1,100 @@
+
+
+
+.design{
+	color:whitesmoke !important;
+	font-family: 'Lato';
+	text-align: center;
+    margin-top: 190px;
+	margin-left:400px;
+    border:2px  rgba(0, 0, 0, 0.473);
+	position: absolute;
+	width:400px;
+	box-shadow: 10px 10px 5px black;
+}
+#img1{
+	position: relative;
+	margin-left:280px ;
+	z-index:-1;
+}
+.fa_custom{
+	color: black;
+	transition: all 0.5s;
+}
+.fa_custom:hover{
+	color: white;
+}
+
+.about-me:hover{
+	color:black!important;	
+}
+.card{
+ width:300px;
+ height:auto;
+ border-radius: 5px;
+ background-color: rgba(32, 31, 31, 0.562)!important;
+ box-shadow: 5px 0px 0px 5px rgba(255, 255, 255, 0.263),0px 5px 5px 0px rgba(255, 255, 255, 0.198) ;
+
+}
+.btn-outline-primary{
+	color: rgb(237, 158, 11)!important;
+	border:2px solid orange !important;
+	transition: all 0.5s;
+}
+.btn-outline-primary:hover{
+	background-color: orange !important;
+	color: white!important;
+}
+.btn1{
+	position: relative;
+	top:-10px;
+	left:150px;
+}
+.btn2{
+	position: relative;
+    top:-10px;
+	left:150px;
+}
+.img1{
+	border-radius: 5px;
+}
+@media  screen and (min-width: 400px) and (max-width:550px) {
+	.design{
+		margin-top: 400px;
+		margin-left:140px;
+		width:250px;
+	}
+	.btn1{
+		
+		left:200px;
+	}
+	#img1{
+		margin-top:150px;
+		margin-left:0px;
+	
+	}
+	.btn2{
+		left:200px;
+	}
+	
+}
+@media  screen and (min-width: 550px) and (max-width:700px) {
+	.design{
+		margin-top: 400px;
+		margin-left:200px;
+		width:250px;
+	}
+	#img1{
+		margin-top:150px;
+		margin-left:15px;
+	
+	}
+	.btn1{
+		
+		left:220px;
+	}
+	.btn2{
+		left:250px;
+	}
+	
+}
