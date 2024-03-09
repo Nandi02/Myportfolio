@@ -58,7 +58,7 @@
 .img1{
 	border-radius: 5px;
 }
-@media  screen and (min-width: 300px) and (max-width:400px) {
+@media  screen and (min-width: 250px) and (max-width:400px) {
 	.design{
 		margin-top: 500px;
 		margin-left:80px;
