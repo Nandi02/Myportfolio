@@ -47,6 +47,10 @@
 	.navbar-brand:hover {
 		color: rgba(255, 166, 0, 0.902) !important;
 	}
+	.active{
+		color:#ffa600!important;
+	}
+	
 </style>
 
 <body style="background-color: rgba(41, 39, 39, 0.936);">
@@ -399,7 +403,14 @@
 		document.getElementById("myButton1").onclick = function () {
 			location.href = "https://github.com/Nandi02";
 		};
-		
+
+		$(document).ready(function() {
+			$('.nav-link').click(function() {
+			  $('.nav-link').removeClass('active');
+			  $(this).addClass('active');
+			});
+		  });
+
 
 
 		// Make the page loadable 
