@@ -80,21 +80,21 @@
 }
 @media  screen and (min-width: 350px) and (max-width:550px) {
 	.design{
-		margin-top: 400px;
+		margin-top: 370px;
 		margin-left:140px;
 		width:250px;
 	}
 	.btn1{
 		
-		left:200px;
+		left:160px;
 	}
 	#img1{
-		margin-top:150px;
+		margin-top:120px;
 		margin-left:0px;
 	
 	}
 	.btn2{
-		left:200px;
+		left:160px;
 	}
 	
 }
