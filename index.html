@@ -408,7 +408,7 @@
 			$('section').hide(1000); // Hide all sections initially
 			$('.home').show(500);
 			// Use event delegation to attach the event listener to the buttons
-			$(document).on('click', 'a', function (e) {
+			$(document).on('click', 'a[href^="#"]', function (e) {
 				e.preventDefault(); // Prevent the default behavior of the link
 				var sectionId = $(this).data('section'); // Get the section ID from the button's data attribute
 				$('section').hide(1000); // Hide all sections
