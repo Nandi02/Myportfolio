@@ -60,42 +60,44 @@
 }
 @media  screen and (min-width: 250px) and (max-width:350px) {
 	.design{
-		margin-top: 400px;
+		margin-top: 350px;
 		margin-left:80px;
 		width:250px;
 	}
 	.btn1{
 		
-		left:200px;
+		left:130px;
 	}
 	#img1{
-		margin-top:200px;
+		margin-top:150px;
 		margin-left:-10px;
 	
 	}
 	.btn2{
-		left:200px;
+		left:130px;
 	}
+	
 	
 }
 @media  screen and (min-width: 350px) and (max-width:550px) {
 	.design{
-		margin-top: 370px;
-		margin-left:140px;
+		margin-top: 300px;
+		margin-left:110px;
 		width:250px;
 	}
 	.btn1{
 		
-		left:160px;
+		left:150px;
 	}
 	#img1{
-		margin-top:120px;
-		margin-left:0px;
+		margin-top:100px;
+		margin-left:-10px;
 	
 	}
 	.btn2{
-		left:160px;
+		left:150px;
 	}
+	
 	
 }
 @media  screen and (min-width: 550px) and (max-width:700px) {
@@ -120,21 +122,21 @@
 }
 @media  screen and (min-width: 700px) and (max-width:1000px) {
 	.design{
-		margin-top: 500px;
+		margin-top: 400px;
 		margin-left:250px;
 		width:250px;
 	}
 	#img1{
-		margin-top:250px;
+		margin-top:200px;
 		margin-left:80px;
 	
 	}
 	.btn1{
 		
-		left:220px;
+		left:300px;
 	}
 	.btn2{
-		left:250px;
+		left:300px;
 	}
 	
 }
