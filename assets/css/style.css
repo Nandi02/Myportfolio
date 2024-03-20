@@ -46,37 +46,19 @@
 	background-color: orange !important;
 	color: white!important;
 }
-.btn1{
-	position: relative;
-	top:-10px;
-	left:150px;
-}
-.btn2{
-	position: relative;
-    top:-10px;
-	left:150px;
-}
-.img1{
-	border-radius: 5px;
-}
+
 @media  screen and (min-width: 250px) and (max-width:350px) {
 	.design{
 		margin-top: 350px;
 		margin-left:80px;
 		width:250px;
 	}
-	.btn1{
-		
-		left:130px;
-	}
 	#img1{
-		margin-top:130px;
-		margin-left:-15px;
+		margin-top:90px;
+		margin-left:-20px;
 	
 	}
-	.btn2{
-		left:130px;
-	}
+	
 	
 	
 }
@@ -86,18 +68,13 @@
 		margin-left:110px;
 		width:250px;
 	}
-	.btn1{
-		
-		left:150px;
-	}
+	
 	#img1{
-		margin-top:100px;
-		margin-left:-10px;
+		margin-top:60px;
+		margin-left:-20px;
 	
 	}
-	.btn2{
-		left:150px;
-	}
+	
 	
 	
 }
@@ -112,13 +89,7 @@
 		margin-left:15px;
 	
 	}
-	.btn1{
-		
-		left:220px;
-	}
-	.btn2{
-		left:250px;
-	}
+	
 	
 }
 @media  screen and (min-width: 700px) and (max-width:1000px) {
@@ -132,13 +103,7 @@
 		margin-left:80px;
 	
 	}
-	.btn1{
-		
-		left:300px;
-	}
-	.btn2{
-		left:300px;
-	}
+	
 	
 }
 
