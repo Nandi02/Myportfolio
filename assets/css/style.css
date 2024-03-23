@@ -31,11 +31,14 @@
 }
 .local{
  width:300px;
- height:auto;
- border-radius: 5px;
- background-color: rgba(32, 31, 31, 0.562)!important;
- box-shadow: 5px 0px 0px 5px rgba(255, 255, 255, 0.263),0px 5px 5px 0px rgba(255, 255, 255, 0.198) ;
-
+ height:100%;
+ border-radius: 20px;
+ background-color: rgba(79, 77, 77, 0.347)!important;
+ box-shadow: 20px 20px 60px #00000078, inset -20px -20px 60px #00000029;
+}
+.local:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
 }
 .btn-outline-primary{
 	color: rgb(237, 158, 11)!important;
