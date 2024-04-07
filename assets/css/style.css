@@ -139,3 +139,55 @@
 	}
 }
 
+.box:nth-child(2){
+	transition-delay: 150ms;
+}
+.box:nth-child(3){
+	transition-delay: 200ms;
+}
+.box:nth-child(4){
+	transition-delay: 250ms;
+}
+.box:nth-child(5){
+	transition-delay: 300ms;
+}
+.box:nth-child(6){
+	transition-delay: 350ms;
+}
+.box:nth-child(7){
+	transition-delay: 400ms;
+}
+.box:nth-child(8){
+	transition-delay: 450ms;
+}
+.box:nth-child(9){
+	transition-delay: 500ms;
+}
+.box:nth-child(10){
+	transition-delay: 450ms;
+}
+.box:nth-child(11){
+	transition-delay: 500ms;
+}
+.box:nth-child(12){
+	transition-delay: 550ms;
+}
+.box:nth-child(13){
+	transition-delay: 600ms;
+}
+.box:nth-child(14){
+	transition-delay: 650ms;
+}
+.box:nth-child(15){
+	transition-delay: 700ms;
+}
+.box:nth-child(16){
+	transition-delay: 750ms;
+}
+.box:nth-child(17){
+	transition-delay: 800ms;
+}
+.box:nth-child(18){
+	transition-delay: 850ms;
+}
+
